@@ -8,6 +8,3 @@ jobs:
         uses: actions/checkout@v3
       - name: Run Feed Generator
         uses: Beltrame-DevOps/Repo_Generator@main
-        with:
-          email: ${{ github.actor }}@localhost
-          user: ${{ github.actor }}
